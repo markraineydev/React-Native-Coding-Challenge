@@ -1,0 +1,23 @@
+{
+  "name": "X + Y",
+  "fields": {
+    "x": {
+      "label": "X",
+      "type": "number",
+      "readOnly": false,
+      "calculate": null
+    },
+    "y": {
+      "label": "Y",
+      "type": "number",
+      "readOnly": false,
+      "calculate": null
+    },
+    "sum": {
+      "label": "Sum",
+      "type": "number",
+      "readOnly": true,
+      "calculate": "x + y"
+    }
+  }
+}
